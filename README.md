@@ -23,8 +23,10 @@ O projeto combina a stack Elastic (Elasticsearch + Kibana + Filebeat) com o **Ze
 ---
 
 ## 🏗️ Arquitetura do Projeto
-```
+
 <img src=".\assets\image.png" alt="arquiterura" width="900px" height="500px">
+```
+
 ---
 
 ## ⚙️ Tecnologias Utilizadas

@@ -1,4 +1,4 @@
-```markdown
+
 # 🛡️ Network Sentinel Lab – SOC Stack para Análise de Tráfego e Monitoramento de Rede
 
 <div align="center">

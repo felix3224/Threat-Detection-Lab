@@ -1,1 +1,45 @@
+#path directory: sudo nano /etc/filebeat/filebeat.yml
 
+filebeat.inputs:
+
+# Logs do Apache
+- type: log
+  enabled: true
+  paths:
+    - /var/log/apache2/access.log
+    - /var/log/apache2/error.log
+    - /var/log/apache2/login_attempts.log
+  fields:
+    log_type: apache
+  fields_under_root: true
+
+# Logs do Sistema
+- type: log
+  enabled: true
+  paths:
+    - /var/log/syslog
+    - /var/log/auth.log
+  fields:
+    log_type: system
+  fields_under_root: true
+
+# Logs do Zeek
+- type: log
+  enabled: true
+  paths:
+    - /opt/zeek/logs/current/*.log
+  fields:
+    log_type: zeek
+  fields_under_root: true
+
+# Logs do Lab Site
+- type: log
+  enabled: true
+  paths:
+    - /var/www/html/lab_site/logs/*.log
+  fields:
+    log_type: lab_site
+  fields_under_root: true
+
+output.elasticsearch:
+  hosts: ["localhost:9200"]

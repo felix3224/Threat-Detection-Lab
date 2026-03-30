@@ -1,1 +1,10 @@
+#Path: sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+#Well probally that have the fields down, just search and change
 
+[mysqld]
+user = mysql
+port = 3306
+bind-address = 127.0.0.1
+performance_schema = OFF
+innodb_buffer_pool_size = 64M
+max_connections = 50

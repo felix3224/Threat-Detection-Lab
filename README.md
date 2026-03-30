@@ -1,11 +1,15 @@
 ```markdown
 # 🛡️ Network Sentinel Lab – SOC Stack para Análise de Tráfego e Monitoramento de Rede
 
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+<div align="center">
+
+![Status](https://img.shields.io/badge/status-active-success.svg)
 [![Elastic Stack](https://img.shields.io/badge/Elastic%20Stack-7.17-005571?logo=elastic)](https://www.elastic.co/)
 [![Zeek](https://img.shields.io/badge/Zeek-6.0-4C9F70?logo=zeek)](https://zeek.org/)
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-E95420?logo=ubuntu)](https://ubuntu.com/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+</div>
 
 ---
 
